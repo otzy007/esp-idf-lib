@@ -74,7 +74,7 @@ Add path to components in your project makefile, e.g:
    
    PROJECT_NAME := my-esp-project
    EXTRA_COMPONENT_DIRS := $(HOME)/my/work/path/esp-idf-lib/components
-   EXCLUDE_COMPONENTS := max7219 mcp23x17
+   EXCLUDE_COMPONENTS := max7219 mcp23x17 led_strip
    include $(IDF_PATH)/make/project.mk
 
 ====================
@@ -132,6 +132,7 @@ ADC/DAC
    groups/hx711
    groups/pcf8591
    groups/mcp4725
+   groups/mcp342x
 
 Power/Current monitors
 ======================
@@ -180,6 +181,8 @@ Other
    groups/ultrasonic
    groups/encoder
    groups/tda74xx
+   groups/tca9548
+   groups/led_strip
    
 
 ==================
