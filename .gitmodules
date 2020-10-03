@@ -1,0 +1,3 @@
+[submodule "examples/bmp280/externals/ESP32_TFT_library"]
+	path = examples/bmp280/externals/ESP32_TFT_library
+	url = https://github.com/jeremyjh/ESP32_TFT_library.git
